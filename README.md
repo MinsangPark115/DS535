@@ -1,4 +1,5 @@
-# DS535 Project_Conditional Diffusion Recommender Model
+# DS535 Project
+## Conditional Diffusion Recommender Model
 by Minsang Park, Ghwanghyun Lee, Sumin Lee, Jongbok Lee
 
 ## Environment
