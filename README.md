@@ -45,6 +45,7 @@ Your Autoencoder or VAE trained checkpoint is in
 ## Sampling
 ### 0. Trained checkpoint
 Because of size of file, we cannot upload checkpoint that we used.
+
 If you want to get, contact to Minsang Park (pagemu@kaist.ac.kr)
 
 ### 1. Sampling Code
