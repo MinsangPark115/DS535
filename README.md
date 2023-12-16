@@ -42,12 +42,16 @@ When you open the file, you have to modify below term
 After modification, you can run code
 
 ### 4. Checkpoint Save
-After training step, your "main" trained checkpoint is in 
+After training step, your trained "main" checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
 
-Your Autoencoder or VAE trained checkpoint is in 
+Your trained Autoencoder checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
-or 
+
+For VAE version,
+* ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
+
+Your trained VAE checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_VAE{key}.ckpt
 
 ## Sampling
