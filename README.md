@@ -36,7 +36,10 @@ new_data = pd.read_csv(filename1)
 
 #######################################################
 
-after training step, your trained checkpoint is in ./trained_ckpt
+after training step, your "main" trained checkpoint is in 
+* ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
+Your Autoencoder or VAE trained checkpoint is in 
+* ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
 
 ## Sampling
 You can sample with this code
@@ -70,3 +73,5 @@ filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv"
 new_data = pd.read_csv(filename1)
 
 #######################################################
+
+after sampling step, your sample is saved in ./{ckptname}_sample.csv
