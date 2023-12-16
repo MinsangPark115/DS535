@@ -15,11 +15,17 @@ When you open the file, you have to modify below term
 
 ############################### Change this term for your input dataset ###############################
 
-numofcluster = 5               ## change this as number of cluster that your input data have : 5 or 10
-clustertype = "1st"            ## change this as type of cluster that your input data have " 1st or 2nd
+numofcluster = 5               
+          change this as number of cluster that your input data have : 5 or 10
+
+clustertype = "1st"            
+          change this as type of cluster that your input data have " 1st or 2nd
 
 path = "./data/"
-filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" ## change with input data
+
+filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" 
+          change this with input data name
+
 new_data = pd.read_csv(filename1)
 
 #######################################################################################################
@@ -35,14 +41,23 @@ When you open the file, you have to modify below term
 
 ############################### Change this term for your input dataset ###############################
 
-numofcluster = 5               ## change this as number of cluster that your input data have : 5 or 10
-clustertype = "1st"            ## change this as type of cluster that your input data have " 1st or 2nd
+numofcluster = 5               
+          change this as number of cluster that your input data have : 5 or 10
 
-ckptname = f"model_1m_{clustertype}={numofcluster}_sig"  ## write xx when your "main" ckpt name is xx.ckpt
-mode = "sig"        ## if your autoencoder use sigmoid layer in training step, write sig, else anything.
+clustertype = "1st"
+          change this as type of cluster that your input data have " 1st or 2nd
+
+ckptname = f"model_1m_{clustertype}={numofcluster}_sig"  
+          change this as xxxx when your "main" ckpt name is xxxx.ckpt
+
+mode = "sig"
+          if your autoencoder use sigmoid layer in training step, write sig, else anything.
 
 path = "./data/"
-filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" ## change with training data
+
+filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" 
+          change with training data
+
 new_data = pd.read_csv(filename1)
 
 #######################################################################################################
