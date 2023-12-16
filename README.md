@@ -18,7 +18,7 @@ You can train your model with run one of this codes
   * Conditional Diffusion Recommender Model.ipynb
   * Conditional Diffusion Recommender Model_sig.ipynb
 
-### Modify code
+### Modification
 When you open the file, you have to modify below term
 ![Training](https://i.ibb.co/Z8SDXCD/image.png)
 
@@ -33,7 +33,7 @@ When you open the file, you have to modify below term
 * filename1
   * change this with input data name
 
-## Checkpoint Save
+### Checkpoint Save
 After training step, your "main" trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
 
@@ -41,10 +41,13 @@ Your Autoencoder or VAE trained checkpoint is in
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
 
 ## Sampling
+
+### Sampling Code
 You can sample with this code
 
   * sampling.ipynb
 
+### Modification
 When you open the file, you have to modify below term
 
 ![Sampling](https://i.ibb.co/pQFVGfD/2.png)
@@ -66,6 +69,6 @@ When you open the file, you have to modify below term
 * filename1
   * change this with input data name
 
-
+### Sample Save
 after sampling step, your sample is saved in 
 * ./{ckptname}_sample.csv
