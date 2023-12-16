@@ -19,9 +19,9 @@ When you open the file, you have to modify below term
 
 ############ Change this term for your input dataset ############
 
-* numofcluster = 5               
- * 5 or 10
- * change this as number of cluster that your input data have
+numofcluster = 5               
+* 5 or 10
+* change this as number of cluster that your input data have
 
 
 clustertype = "1st"            
