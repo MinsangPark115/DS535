@@ -2,10 +2,10 @@
 ## Conditional Diffusion Recommender Model
 Minsang Park, Ghwanghyun Lee, Sumin Lee, Jongbok Lee
 
-### Environment
+## Environment
 python 3.8, CUDA 11.1
 
-### Training
+## Training
 In first tab, there is code for installing packages with "requirements_for_cuda111.txt."
 
 You can install packages in your environment with that code
@@ -36,7 +36,7 @@ After training step, your "main" trained checkpoint is in
 Your Autoencoder or VAE trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
 
-### Sampling
+## Sampling
 You can sample with this code
 
   * sampling.ipynb
