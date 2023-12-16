@@ -103,7 +103,13 @@ You can evaluate your samples with
 
 * Evaluation/metrics.py
 * Evaluation/main.py
+* raw_data.csv
 
-* ```.bash
+If you want to run evaluation code, put your sample csv in 
+* evaluation/test/YOURSAMPLE.csv
+
+After that,
+
+```.bash
 python main.py
 ```
