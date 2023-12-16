@@ -18,6 +18,12 @@ You can train your model with run one of this codes
   * Conditional Diffusion Recommender Model_AE.ipynb
   * Conditional Diffusion Recommender Model_AE_sig.ipynb
 
+For VAE version,
+
+  * Conditional Diffusion Recommender Model_VAE.ipynb
+  * Conditional Diffusion Recommender Model_VAE_sig.ipynb
+
+
 ### 3. Modification
 When you open the file, you have to modify below term
 ![Training](https://i.ibb.co/Z8SDXCD/image.png)
@@ -54,6 +60,10 @@ If you want to get, contact to Minsang Park (pagemu@kaist.ac.kr)
 You can sample with this code
 
   * sampling.ipynb
+
+For VAE version,
+
+  * sampling_VAE.ipynb
 
 ### 2. Modification
 When you open the file, you have to modify below term
