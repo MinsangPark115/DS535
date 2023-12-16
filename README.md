@@ -19,10 +19,13 @@ When you open the file, you have to modify below term
 ############ Change this term for your input dataset ############
 
 numofcluster = 5               
-* change this as number of cluster that your input data have : 5 or 10
+* 5 or 10
+* change this as number of cluster that your input data have
+
 
 clustertype = "1st"            
-* change this as type of cluster that your input data have " 1st or 2nd
+* "1st" or "2nd"
+* change this as type of cluster that your input data have
 
 path = "./data/"
 
@@ -45,21 +48,24 @@ When you open the file, you have to modify below term
 ############ Change this term for your input dataset ############
 
 numofcluster = 5               
-* change this as number of cluster that your input data have : 5 or 10
+* 5 or 10
+* change this as number of cluster that your input data have
 
 clustertype = "1st"
-* change this as type of cluster that your input data have " 1st or 2nd
+* "1st" or "2nd"
+* change this as type of cluster that your input data have
 
 ckptname = f"model_1m_{clustertype}={numofcluster}_sig"  
 * change this as xxxx when your "main" ckpt name is xxxx.ckpt
 
 mode = "sig"
+* "sig" or "nosig"
 * if your autoencoder use sigmoid layer in training step, write sig, else anything.
 
 path = "./data/"
 
 filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" 
-* change with training data
+* change this with input data name
 
 new_data = pd.read_csv(filename1)
 
