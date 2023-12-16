@@ -74,5 +74,5 @@ When you open the file, you have to modify below term
 After modification, you can run code
 
 ### 3. Sample Save
-after sampling step, your sample is saved in 
+After sampling step, your sample is saved in 
 * ./{ckptname}_sample.csv
