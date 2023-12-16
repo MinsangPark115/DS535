@@ -98,7 +98,6 @@ After sampling step, your sample is saved in
 * ./{ckptname}_sample.csv
 
 ## Evaluation
-### 1. Evaluation Code
 You can evaluate your samples with
 
 * Evaluation/metrics.py
