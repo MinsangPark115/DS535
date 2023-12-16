@@ -16,7 +16,6 @@ You can train your model with run one of this codes
 
 When you open the file, you have to modify below term
 ![Training](https://i.ibb.co/Z8SDXCD/image.png)
-![Sampling](https://i.ibb.co/pQFVGfD/2.png)
 
 ############ Change this term for your input dataset ############
 
@@ -52,11 +51,10 @@ You can sample with this code
 
 When you open the file, you have to modify below term
 
-############ Change this term for your input dataset ############
-
-numofcluster = 5               
-* 5 or 10
-* change this as number of cluster that your input data have
+![Sampling](https://i.ibb.co/pQFVGfD/2.png)
+* numofcluster
+  * 5 or 10
+  * change this as number of cluster that your input data have
 
 clustertype = "1st"
 * "1st" or "2nd"
