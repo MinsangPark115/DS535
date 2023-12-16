@@ -15,7 +15,8 @@ You can train your model with run one of this codes
   * Conditional Diffusion Recommender Model_sig.ipynb
 
 When you open the file, you have to modify below term
-
+![Training](https://i.ibb.co/Z8SDXCD/image.png)
+![Sampling](https://i.ibb.co/pQFVGfD/2.png)
 
 ############ Change this term for your input dataset ############
 
