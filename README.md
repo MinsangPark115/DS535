@@ -16,7 +16,7 @@ You can train your model with run one of this codes
 
 When you open the file, you have to modify below term
 
-############################### Change this term for your input dataset ###############################
+############ Change this term for your input dataset ############
 
 numofcluster = 5               
 * change this as number of cluster that your input data have : 5 or 10
@@ -31,7 +31,7 @@ filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv"
 
 new_data = pd.read_csv(filename1)
 
-#######################################################################################################
+#################################################################
 
 after training step, your trained checkpoint is in ./trained_ckpt
 
@@ -42,7 +42,7 @@ You can sample with this code
 
 When you open the file, you have to modify below term
 
-############################### Change this term for your input dataset ###############################
+############ Change this term for your input dataset ############
 
 numofcluster = 5               
 * change this as number of cluster that your input data have : 5 or 10
@@ -63,4 +63,4 @@ filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv"
 
 new_data = pd.read_csv(filename1)
 
-#######################################################################################################
+#################################################################
