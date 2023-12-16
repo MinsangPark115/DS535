@@ -15,8 +15,8 @@ You can install packages in your environment with that code
 ### 2. Training Code
 You can train your model with run one of this codes
 
-  * Conditional Diffusion Recommender Model.ipynb
-  * Conditional Diffusion Recommender Model_sig.ipynb
+  * Conditional Diffusion Recommender Model_AE.ipynb
+  * Conditional Diffusion Recommender Model_AE_sig.ipynb
 
 ### 3. Modification
 When you open the file, you have to modify below term
