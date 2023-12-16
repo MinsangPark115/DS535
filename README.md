@@ -38,6 +38,7 @@ new_data = pd.read_csv(filename1)
 
 after training step, your "main" trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
+
 Your Autoencoder or VAE trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
 
@@ -74,4 +75,5 @@ new_data = pd.read_csv(filename1)
 
 #######################################################
 
-after sampling step, your sample is saved in ./{ckptname}_sample.csv
+after sampling step, your sample is saved in 
+* ./{ckptname}_sample.csv
