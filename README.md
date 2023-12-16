@@ -103,3 +103,7 @@ You can evaluate your samples with
 
 * Evaluation/metrics.py
 * Evaluation/main.py
+
+* ```.bash
+python main.py
+```
