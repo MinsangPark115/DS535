@@ -16,11 +16,12 @@ You can train your model with run one of this codes
 
 When you open the file, you have to modify below term
 
+
 ############ Change this term for your input dataset ############
 
-numofcluster = 5               
-* 5 or 10
-* change this as number of cluster that your input data have
+* numofcluster = 5               
+ * 5 or 10
+ * change this as number of cluster that your input data have
 
 
 clustertype = "1st"            
@@ -36,7 +37,8 @@ new_data = pd.read_csv(filename1)
 
 #######################################################
 
-after training step, your "main" trained checkpoint is in 
+
+After training step, your "main" trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
 
 Your Autoencoder or VAE trained checkpoint is in 
