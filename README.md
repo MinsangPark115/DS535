@@ -21,17 +21,12 @@ When you open the file, you have to modify below term
   * 5 or 10
   * change this as number of cluster that your input data have
 
-
 * clustertype            
   * "1st" or "2nd"
   * change this as type of cluster that your input data have
 
 * filename1
- * change this with input data name
-
-new_data = pd.read_csv(filename1)
-
-#######################################################
+  * change this with input data name
 
 
 After training step, your "main" trained checkpoint is in 
@@ -48,29 +43,24 @@ You can sample with this code
 When you open the file, you have to modify below term
 
 ![Sampling](https://i.ibb.co/pQFVGfD/2.png)
-* numofcluster
+* numofcluster               
   * 5 or 10
   * change this as number of cluster that your input data have
 
-clustertype = "1st"
-* "1st" or "2nd"
-* change this as type of cluster that your input data have
+* clustertype            
+  * "1st" or "2nd"
+  * change this as type of cluster that your input data have
 
-ckptname = f"model_1m_{clustertype}={numofcluster}_sig"  
-* change this as xxxx when your "main" ckpt name is xxxx.ckpt
+* ckptname 
+  * change this as "xxxx" when your "main" ckpt name is "xxxx.ckpt"
 
-mode = "sig"
-* "sig" or "nosig"
-* if your autoencoder use sigmoid layer in training step, write sig, else anything.
+* mode = "sig"
+  * "sig" or "nosig"
+  * if your autoencoder use sigmoid layer in training step, write sig, else anything.
 
-path = "./data/"
+* filename1
+  * change this with input data name
 
-filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" 
-* change this with input data name
-
-new_data = pd.read_csv(filename1)
-
-#######################################################
 
 after sampling step, your sample is saved in 
 * ./{ckptname}_sample.csv
