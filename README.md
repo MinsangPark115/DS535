@@ -41,6 +41,8 @@ After training step, your "main" trained checkpoint is in
 
 Your Autoencoder or VAE trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}_AE{key}.ckpt
+or 
+* ./trained_ckpt/model_1m_{clustertype}={numofcluster}_VAE{key}.ckpt
 
 ## Sampling
 ### 0. Trained checkpoint
