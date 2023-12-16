@@ -8,18 +8,18 @@ python 3.8, CUDA 11
 ## Training
 You can train your model with run one of this codes
 
-  Conditional Diffusion Recommender Model.ipynb
-  Conditional Diffusion Recommender Model_sig.ipynb
+  * Conditional Diffusion Recommender Model.ipynb
+  * Conditional Diffusion Recommender Model_sig.ipynb
 
 When you open the file, you have to modify below term
 
 ############################### Change this term for your input dataset ###############################
 
 numofcluster = 5               
-          change this as number of cluster that your input data have : 5 or 10
+* change this as number of cluster that your input data have : 5 or 10
 
 clustertype = "1st"            
-          change this as type of cluster that your input data have " 1st or 2nd
+* change this as type of cluster that your input data have " 1st or 2nd
 
 path = "./data/"
 
