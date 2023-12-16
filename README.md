@@ -6,15 +6,19 @@ Minsang Park, Ghwanghyun Lee, Sumin Lee, Jongbok Lee
 python 3.8, CUDA 11.1
 
 ## Training
+
+### Install Packages
 In first tab, there is code for installing packages with "requirements_for_cuda111.txt."
 
 You can install packages in your environment with that code
 
+### Training Code
 You can train your model with run one of this codes
 
   * Conditional Diffusion Recommender Model.ipynb
   * Conditional Diffusion Recommender Model_sig.ipynb
 
+### Modify code
 When you open the file, you have to modify below term
 ![Training](https://i.ibb.co/Z8SDXCD/image.png)
 
@@ -29,7 +33,7 @@ When you open the file, you have to modify below term
 * filename1
   * change this with input data name
 
-
+## Checkpoint Save
 After training step, your "main" trained checkpoint is in 
 * ./trained_ckpt/model_1m_{clustertype}={numofcluster}.ckpt
 
