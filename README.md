@@ -19,19 +19,17 @@ When you open the file, you have to modify below term
 
 ############ Change this term for your input dataset ############
 
-numofcluster = 5               
-* 5 or 10
-* change this as number of cluster that your input data have
+* numofcluster               
+  * 5 or 10
+  * change this as number of cluster that your input data have
 
 
-clustertype = "1st"            
-* "1st" or "2nd"
-* change this as type of cluster that your input data have
+* clustertype            
+  * "1st" or "2nd"
+  * change this as type of cluster that your input data have
 
-path = "./data/"
-
-filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv" 
-* change this with input data name
+* filename1
+ * change this with input data name
 
 new_data = pd.read_csv(filename1)
 
