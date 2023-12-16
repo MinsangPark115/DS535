@@ -34,7 +34,7 @@ filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv"
 
 new_data = pd.read_csv(filename1)
 
-#################################################################
+#######################################################
 
 after training step, your trained checkpoint is in ./trained_ckpt
 
@@ -69,4 +69,4 @@ filename1 = path + f"ml_1m_user_mov_{clustertype}_cluster={numofcluster}.csv"
 
 new_data = pd.read_csv(filename1)
 
-#################################################################
+#######################################################
