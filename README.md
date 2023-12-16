@@ -1,12 +1,12 @@
-# DS535 Project
-## Conditional Diffusion Recommender Model
+# DS535 Project_Conditional Diffusion Recommender Model
 Minsang Park, Ghwanghyun Lee, Sumin Lee, Jongbok Lee
 
 ## Environment
 python 3.8, CUDA 11.1
 
 ## Training
-In first tab, there is code for installing packages with requirements_for_cuda111.txt. 
+In first tab, there is code for installing packages with "requirements_for_cuda111.txt."
+
 You can install packages in your environment with that code
 
 You can train your model with run one of this codes
